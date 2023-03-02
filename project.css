@@ -1,0 +1,38 @@
+
+
+  .card {
+    
+    animation: slide-in-left 1s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slide-in-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  a,h1 {
+    animation: fadeIn 3s ease;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .du1{
+    background-color: #FFCC70;
+  }
+  .du2{
+    background-color: #80D0C7;
+  }
+  .du3{
+    background-color: #FF9A8B;
+  }

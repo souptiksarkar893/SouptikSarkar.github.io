@@ -1,0 +1,96 @@
+.slide-in-right {
+    animation: slide-in-right 1s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+ a,h1,h2{
+    animation: fadeIn 3s ease;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  
+
+  .card {
+    
+    animation: slide-in-left 1s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slide-in-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .card1{
+    background-color: #80D0C7;
+  }
+  .card2{
+    background-color: #FFCC70;
+  }
+
+  .card3{
+    background-color: #C850C0;
+  }
+
+  .card4{
+    background-color: #FF99AC;
+  }
+
+  .card5{
+    background-color: #E0C3FC;
+  }
+
+  .card6{
+    background-color: #8EC5FC;
+  }
+
+  .card7{
+    background-color: #FBAB7E;
+  }
+  .card8{
+    background-color: #85FFBD;
+  }
+
+  /* #headingOne{
+    background-color: #FF99AC;
+  } */
+
+  .d1{
+    background-color: #85FFBD;
+  }
+  .d2{
+    background-color: #E0C3FC;
+  }
+  .d3{
+    background-color:antiquewhite;
+  }
+
+  .du1{
+    background-color: #FFCC70;
+  }
+  .du2{
+    background-color: #80D0C7;
+  }
+  .du3{
+    background-color: #FF9A8B;
+  }
