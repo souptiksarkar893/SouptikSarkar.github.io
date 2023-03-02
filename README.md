@@ -1,1 +1,1 @@
-https://souptiksarkar893.github.io/Souptik_Sarkar.github.io/
+https://souptiksarkar893.github.io/SouptikSarkar.github.io/
