@@ -1,0 +1,22 @@
+.carousel-item img {
+  margin:10px;
+}
+.block4-wrap {
+  display:flex
+}
+.block4 {
+  flex:1 0 25%;
+  background:#000;
+  color:#fff;
+}
+.my-captions{margin:10px;padding-bottom:3em}
+
+/* fix width and make user scroll with mouse/touch to see the items */
+@media screen and (max-width:768px){
+  .block4{max-width:280px;flex:1 0 100%;overflow:hidden}  
+  .carousel{overflow:hidden;}
+  .carousel-inner{overflow-x:visible;}
+}
+@media screen and (max-width:480px){
+  .block4{max-width:240px;} 
+}

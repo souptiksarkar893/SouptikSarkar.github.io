@@ -1,0 +1,97 @@
+.btn {
+  /* Default button styles */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none; /* Remove button border */
+}
+
+.dark-mode .dark{
+  /* Dark mode styles */
+  background-color: #343a40;
+  color: #fff;
+}
+
+.accordion li label  {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.dark-mode .accordion li label  {
+  background-color: #343a40;
+  color: #fff;
+  /* box-shadow: 0 0 10px rgba(255,255,255,0.3); */
+}
+
+.accordion .content  {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.dark-mode .accordion .content  {
+  background-color: #343a40;
+  color: #fff;
+  /* box-shadow: 0 0 10px rgba(255,255,255,0.3); */
+}
+
+.accordion {
+  margin: 60px auto;
+  width: 100%;
+  max-width: 750px;
+}
+
+.accordion li {
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.accordion li label {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+label::after {
+  content: '+';
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.5s;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.accordion .content {
+  text-align: left;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+  max-height: 600px;
+  padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after {
+  transform: rotate(135deg);
+}
+
+

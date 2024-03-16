@@ -1,0 +1,11 @@
+
+  
+  .dark-mode .dark{
+    /* Dark mode styles */
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none; 
+  }

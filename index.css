@@ -1,0 +1,215 @@
+
+header {
+    
+  animation: slide-in-left 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.head {
+  animation: fadeIn 3s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.lead {
+  animation: slide-in-right 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 246px;
+    overflow: hidden;
+}
+.container .text{
+    position: relative;
+    color: #F4D03F;
+    font-size: 30px;
+    font-weight: 400;
+}
+.container .text.first-text{
+    color: #FFF;
+}
+
+.text.sec-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #343A40;
+  border-left: 2px solid #F4D03F;
+  animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+
+.navbar {
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.3s ease-out;
+}
+
+/* Custom styles for the toggler button icon */
+.navbar-toggler-icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: transform 0.3s ease;
+  /* Add a background image for the hamburger icon */
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath d="M3 5h18v2H3zm0 6h18v2H3zm0 6h18v2H3z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+/* Custom styles for the cross icon when the navbar is expanded */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  /* Add a background image for the cross icon */
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="%23000" d="M17.293 6.293a1 1 0 0 0-1.414 0L12 10.586 7.707 6.293a1 1 0 1 0-1.414 1.414L10.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414L12 13.414l4.293 4.293a1 1 0 0 0 1.414-1.414L13.414 12l4.293-4.293a1 1 0 0 0 0-1.414z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+
+.nav-link:link,
+.nav-link:visited {
+  color: var(--clr-text);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: var(--clr-primary);
+}
+
+.nav .nav-link.active {
+  color: var(--clr-primary);
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #34495E;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+.switch:active,
+.switch:focus {
+  outline: none; 
+  border: none; 
+  box-shadow: none; 
+}
+
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  outline: none;
+  border: none; 
+  box-shadow: none;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-color: violet;
+  }
+  50% {
+    background-color: orange; /* Change this to the desired background color */
+  }
+  100% {
+    background-color: violet;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 200vh; /* Adjust this height based on your content */
+  position: relative;
+}
+
+#scroll-sign {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #007bff; /* Bootstrap primary color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#scroll-sign.hidden {
+  opacity: 0;
+}
+
+
+
+
+* {
+  transition: all .2s ease;
+}
+
