@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Contact</title>
+    <link rel="icon" href="assets/6284034.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="logo">Portfolio</a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="work.html" class="nav-link">Work</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link active">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-actions">
+            <button
+              id="theme-toggle"
+              class="theme-toggle"
+              aria-label="Toggle theme"
+            >
+            <i class="fas fa-sun sun-icon"></i>
+            <i class="fas fa-moon moon-icon"></i>  
+            </button>
+            <button class="menu-toggle" aria-label="Toggle menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Contact Me</h1>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-form-container">
+            <form
+              action="https://formspree.io/f/movenbdj"
+              method="POST"
+              id="contact-form"
+              class="contact-form"
+            >
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Souptik Sarkar"
+                  required
+                />
+                <span class="error-message" id="name-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your.email@example.com"
+                  required
+                />
+                <span class="error-message" id="email-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="What is this regarding?"
+                  required
+                />
+                <span class="error-message" id="subject-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your message here..."
+                  rows="6"
+                  required
+                ></textarea>
+                <span class="error-message" id="message-error"></span>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary w-full"
+                id="submit-btn"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h2 class="section-title">Let's Connect</h2>
+            <p>
+              Feel free to reach out to me through the form or connect with me
+              on social media. I'm always open to discussing new projects,
+              creative ideas, or opportunities.
+            </p>
+            <div class="social-links-vertical">
+              <a href="https://www.linkedin.com/in/souptik-sarkar-738502225" class="social-link-item">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/souptiksarkar893" class="social-link-item">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://twitter.com/souptiksarkar60" class="social-link-item">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+              </a>
+              <a href="https://instagram.com/souptiksarkar147" class="social-link-item">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="https://dribbble.com/SouptikSarkar" class="social-link-item">
+                <i class="fab fa-dribbble"></i>
+                <span>Dribbble</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3 class="footer-title">Portfolio</h3>
+            <p>A showcase of my skills, projects, and professional journey.</p>
+          </div>
+          <div class="footer-links">
+            <h3 class="footer-title">Quick Links</h3>
+            <ul class="footer-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3 class="footer-title">Connect</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/souptik-sarkar-738502225" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/souptiksarkar893" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="https://twitter.com/souptiksarkar60" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/souptiksarkar147" class="social-link"
+                ><i class="fab fa-instagram"></i
+              >
+              <a href="https://dribbble.com/SouptikSarkar" class="social-link"
+              ><i class="fab fa-dribbble"></i>
+            </i>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright">
+            © <span id="current-year"></span> Souptik Sarkar. All Rights Reserved.
+          </p>
+          <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

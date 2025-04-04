@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Work</title>
+    <link rel="icon" href="assets/6284034.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="logo">Portfolio</a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="work.html" class="nav-link active">Work</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-actions">
+            <button
+              id="theme-toggle"
+              class="theme-toggle"
+              aria-label="Toggle theme"
+            >
+            <i class="fas fa-sun sun-icon"></i>
+            <i class="fas fa-moon moon-icon"></i>  
+            </button>
+            <button class="menu-toggle" aria-label="Toggle menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">My Work</h1>
+      </div>
+    </section>
+
+    <!-- Work Tabs Section -->
+    <section class="work-section">
+      <div class="container">
+        <div class="tabs">
+          <div class="tabs-list">
+            <button class="tab-btn active" data-tab="live-projects">
+              Live Projects
+            </button>
+            <button class="tab-btn" data-tab="full-stack">Full Stack</button>
+            <button class="tab-btn" data-tab="designs">Designs</button>
+            <button class="tab-btn" data-tab="internships">Internships</button>
+          </div>
+
+          <!-- Live Projects Tab -->
+          <div class="tab-content active" id="live-projects">
+            <div class="projects-grid">
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">Personal Portfolio</h3>
+                  <p class="project-description">
+                    A personal portfolio website designed to effectively showcase skills, professional work, and hands-on experience.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">Javascript</span>
+                  <span class="tech-tag">Fromspree</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/SouptikSarkar.github.io" class="btn btn-outline btn-sm"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="https://souptiksarkar893.github.io/SouptikSarkar.github.io/" class="btn btn-primary btn-sm"
+                    ><i class="fas fa-external-link-alt"></i> Demo</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">CampusUnite</h3>
+                  <p class="project-description">
+                    A website for events and clubs, enhancing student engagement and streamlining event management.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">Javascript</span>
+                  <span class="tech-tag">Formspree</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/CampusUnite.github.io" class="btn btn-outline btn-sm"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="https://souptiksarkar893.github.io/CampusUnite.github.io/" class="btn btn-primary btn-sm"
+                    ><i class="fas fa-external-link-alt"></i> Demo</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">Gaming Site</h3>
+                  <p class="project-description">
+                    A visually immersive gaming website homepage featuring a stunning parallax effect to enhance user engagement.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">Javascript</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/Gaming_Site.github.io" class="btn btn-outline btn-sm"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="https://souptiksarkar893.github.io/Gaming_Site.github.io/" class="btn btn-primary btn-sm"
+                    ><i class="fas fa-external-link-alt"></i> Demo</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">Artify Hub</h3>
+                  <p class="project-description">
+                    It is a digital canvas website developed for brainstorming, and visualizing ideas in real-time.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">Fabric.js</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/Artify_Hub.github.io" class="btn btn-outline btn-sm"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="https://souptiksarkar893.github.io/Artify_Hub.github.io/" class="btn btn-primary btn-sm"
+                    ><i class="fas fa-external-link-alt"></i> Demo</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">ColorFusion</h3>
+                  <p class="project-description">
+                    A website for creating custom gradients and exploring a diverse collection of gradient combinations.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">Javascript</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/ColorFusion.github.io" class="btn btn-outline btn-sm"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="https://souptiksarkar893.github.io/ColorFusion.github.io/" class="btn btn-primary btn-sm"
+                    ><i class="fas fa-external-link-alt"></i> Demo</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full Stack Tab -->
+          <div class="tab-content" id="full-stack">
+            <div class="projects-grid">
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">GOAT</h3>
+                  <p class="project-description">
+                    An intuitive application for registering, searching, booking, checking out, and reviewing hotels seamlessly.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">EJS</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/GOAT" class="btn btn-outline btn-sm w-full"
+                    ><i class="fab fa-github"></i> View on GitHub</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">DALL-E Clone</h3>
+                  <p class="project-description">
+                    An AI-powered image generation app using DALL-E to create unique visuals from text prompts.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Open AI</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/DALL--E-Clone" class="btn btn-outline btn-sm w-full"
+                    ><i class="fab fa-github"></i> View on GitHub</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">Chatting App</h3>
+                  <p class="project-description">
+                    Real-Time chatting application with the functionality of rooms and personal chat.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Socket.io</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/Chatting-App" class="btn btn-outline btn-sm w-full"
+                    ><i class="fab fa-github"></i> View on GitHub</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">Payment Gateway</h3>
+                  <p class="project-description">
+                    A secure and seamless payment gateway enabling fast, easy, and hassle-free transactions across multiple payment methods.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Razorpay</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/payment-gateway" class="btn btn-outline btn-sm w-full"
+                    ><i class="fab fa-github"></i> View on GitHub</a
+                  >
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">Code Nest</h3>
+                  <p class="project-description">
+                    An online code execution platform that allows users to write, run, and test code in multiple programming languages directly from their browser.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">Bootstrap</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Jdoodle</span>
+                </div>
+                <div class="project-footer">
+                  <a href="https://github.com/souptiksarkar893/CodeNest" class="btn btn-outline btn-sm w-full"
+                    ><i class="fab fa-github"></i> View on GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Designs Tab -->
+          <div class="tab-content" id="designs">
+            <div class="carousel-container">
+              <div class="carousel">
+                <div class="carousel-item active">
+                  <img src="assets/ChatBot2.png" alt="ChatBot" />
+                  <div class="carousel-caption">
+                    <h3>ChatBot</h3>
+                    <p>A sleek and intuitive Chatbot UI for seamless interactions.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/CardGenius.png" alt="CardGenius" />
+                  <div class="carousel-caption">
+                    <h3>CardGenius</h3>
+                    <p>A sleek and secure credit card website for CardGenius.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/Error 404.png" alt="Error 404" />
+                  <div class="carousel-caption">
+                    <h3>Error 404</h3>
+                    <p>A creative and engaging 404 error page.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/Job Board Design.png"
+                    alt="Job Board Design"
+                  />
+                  <div class="carousel-caption">
+                    <h3>Job Board Design"</h3>
+                    <p>A modern job board design for effortless job searching.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/Luxury Restaurant.png"
+                    alt="Luxury Restaurant"
+                  />
+                  <div class="carousel-caption">
+                    <h3>Luxury Restaurant"</h3>
+                    <p>A sophisticated luxury restaurant website for fine dining experiences.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/Property Rental App.png"
+                    alt="Property Rental App"
+                  />
+                  <div class="carousel-caption">
+                    <h3>Property Rental App"</h3>
+                    <p>A user-friendly property rental app for seamless bookings.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control prev" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="carousel-control next" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+              <div class="carousel-indicators">
+                <button
+                  class="indicator active"
+                  data-index="0"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  class="indicator"
+                  data-index="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  class="indicator"
+                  data-index="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  class="indicator"
+                  data-index="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  class="indicator"
+                  data-index="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  class="indicator"
+                  data-index="5"
+                  aria-label="Slide 6"
+                ></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Internships Tab -->
+          <div class="tab-content" id="internships">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="timeline-header">
+                      <h3 class="timeline-title">Product Management Intern</h3>
+                      <p class="timeline-subtitle">
+                        Bosscoder Academy • Nov 2024 - Feb 2025
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Conduct market research to gather insights and identify opportunities while documenting product requirements and managing exam and class charters. Additionally, test the dashboard for functionality and optimize questions to ensure clarity and accuracy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="timeline-header">
+                      <h3 class="timeline-title">React.js Intern</h3>
+                      <p class="timeline-subtitle">
+                        Celebal Technologies • May 2024 - Jul 2024
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Build reusable UI components and write clean, efficient code using React.js. Additionally, optimize performance across various browsers and devices to ensure a seamless user experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="timeline-header">
+                      <h3 class="timeline-title">UI/UX Design Intern</h3>
+                      <p class="timeline-subtitle">
+                        Biteme Trading India Private Limited • Apr 2024 - Jun 2024
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Develop wireframes and storyboards to visualize user flow, and design both low-fidelity and high-fidelity mockups for iOS app interfaces. Implement these UI designs to enhance the app's usability and aesthetics.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="timeline-header">
+                      <h3 class="timeline-title">Frontend Development Intern</h3>
+                      <p class="timeline-subtitle">
+                        Syntropy Ventures • Apr 2024 - Jun 2024
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Integrated frontend components with backend services through APIs and implemented UI designs using modern frontend frameworks and libraries. Developed and maintained web applications with React to ensure seamless functionality and user experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="timeline-header">
+                      <h3 class="timeline-title">Full Stack Development Intern</h3>
+                      <p class="timeline-subtitle">
+                        Jythu Enterprises • Feb 2024 - Mar 2024
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Integrating frontend components with backend services to create seamless user experiences, while implementing UI designs. Developing and maintaining responsive, mobile-friendly websites using modern frontend frameworks and libraries.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="timeline-header">
+                      <h3 class="timeline-title">UI/UX Design Intern</h3>
+                      <p class="timeline-subtitle">
+                        Whalesbook Private Limited • Oct 2023 - Dec 2023
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Collaborating with the design team to create intuitive and visually appealing user interfaces for web and mobile applications. Developing wireframes, prototypes, and mockups that significantly contributed to the design process and overall project success.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3 class="footer-title">Portfolio</h3>
+            <p>A showcase of my skills, projects, and professional journey.</p>
+          </div>
+          <div class="footer-links">
+            <h3 class="footer-title">Quick Links</h3>
+            <ul class="footer-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3 class="footer-title">Connect</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/souptik-sarkar-738502225" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/souptiksarkar893" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="https://twitter.com/souptiksarkar60" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/souptiksarkar147" class="social-link"
+                ><i class="fab fa-instagram"></i
+              >
+              <a href="https://dribbble.com/SouptikSarkar" class="social-link"
+              ><i class="fab fa-dribbble"></i>
+            </i>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright">
+            © <span id="current-year"></span> Souptik Sarkar. All Rights Reserved.
+          </p>
+          <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
